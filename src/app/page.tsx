@@ -5,8 +5,8 @@ export default function Home() {
     <main>
       <h1>Welcome to My Website</h1>
       <nav>
-        <Link href="/people">People</Link>
-        <Link href="/places">Places</Link>
+        <Link href="/people/page">People</Link>
+        <Link href="/places/page">Places</Link>
       </nav>
     </main>
   );
