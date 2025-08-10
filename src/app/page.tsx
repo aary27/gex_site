@@ -23,8 +23,8 @@ export default function HomePage() {
           fontSize: "1.2rem",
         }}
       >
-        <Link href="/people">About</Link>
-        <Link href="/places">Projects</Link>
+        <Link href="/people">People</Link>
+        <Link href="/places">Places</Link>
       </nav>
 
       {/* Centered welcome message */}
