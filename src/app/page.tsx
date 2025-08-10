@@ -27,7 +27,6 @@ export default function HomePage() {
         <Link href="/places">Places</Link>
       </nav>
 
-      {/* Centered welcome message */}
       <div
         style={{
           flex: 1,
