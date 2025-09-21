@@ -5,13 +5,13 @@ export default function Visit() {
     const stays = [
     {
       name: "Kertasari Lodge",
-      img: "/lodge.jpg",
+      img: "/lodge.webp",
       desc: "Hilltop hotel",
       link: "https://www.kertasarilodge.com/", // or external booking link
     },
     {
       name: "Whales and Waves",
-      img: "/waves.jpg",
+      img: "/waves.jpeg",
       desc: "Chill surf resort",
       link: "https://whales-and-waves.com/",
     },
