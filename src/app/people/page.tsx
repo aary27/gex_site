@@ -10,7 +10,7 @@ export default function PeoplePage() {
   ];
     return (
         <div       className="min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "/people.jpg" }}>
+      style={{ backgroundImage: "url('/people.jpg')" }}>
         <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
             <nav className="flex justify-center gap-3 mb-8">
                 <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
