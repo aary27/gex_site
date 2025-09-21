@@ -43,7 +43,7 @@ export default function PeoplePage() {
                             className="object-cover w-full h-full"
                         />
                     </div>
-                    <p className="text-center text-white font-medium w-40 h-40 rounded-full overflow-hidden shadow-lg cursor-pointer transition-transform hover:scale-105">{blog.label}</p>
+                    <p className="text-center text-white font-medium w-40 h-40 overflow-hidden shadow-lg cursor-pointer transition-transform hover:scale-105">{blog.label}</p>
                 </Link>
             ))}
           </div>
