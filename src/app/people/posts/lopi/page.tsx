@@ -20,7 +20,7 @@ export default function lopi() {
               priority
           />
         </div>
-        <h1 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">Seaweed Candy Making</h1>
+        <h1 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">Lopi Lopi Painting</h1>
 
         <div className="flex items-center gap-4 mb-6">
 
