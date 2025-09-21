@@ -36,7 +36,7 @@ export default function seaweed() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-3xl px-6 pb-20 prose prose-gray">
+      <div className="max-w-3xl mx-auto px-6 pb-20 text-lg text-gray-900 leading-relaxed space-y-6">
         <p>
           Running a business is never easy. Much less so when you are alone and the odds are stacked against you.
           Kertasari grows a lot of seaweed. One of their biggest exports is the seaweed they obtain from systematic farming.
@@ -55,7 +55,8 @@ export default function seaweed() {
         </p>
         <p>
           Now with a full scale kitchen and a shopfront, you can visit her store while also taking a tour of the facilities.
-
+          Always willing to talk, she has stories for days. From how she battled the skepticism of the village to how hard she
+          fought to get recognised as the owner
         </p>
       </div>
     </article>
