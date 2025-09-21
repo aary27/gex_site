@@ -20,7 +20,7 @@ export default function seaweed() {
               priority
           />
         </div>
-        <h1 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">Seaweed Candy Making</h1>
+        <h2 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">Seaweed Candy Making</h2>
 
         <div className="flex items-center gap-4 mb-6">
 

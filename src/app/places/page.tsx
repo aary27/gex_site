@@ -4,14 +4,15 @@ import Image from 'next/image';
 
 export default function PeoplePage() {
   const peoples = [
-      { href: "/people/posts/seaweed_candy", img: 'seaweed_candy.jpeg', alt: "Seaweed Candy Making", label: 'Seaweed Candy Making' },
-    { href: "/people/posts/lopi", img: "kert.jpg", alt: "Lopi Lopi Racing", label: 'Lopi Lopi Racing' },
+      { href: "/people/posts/gili_sarang", img: 'seaweed_candy.jpeg', alt: "Gili Sarang", label: 'Gili Sarang' },
+    { href: "/people/posts/beach", img: "kert.jpg", alt: "Kertasari Beach", label: 'Kertasari Beach' },
     // { href: "/people/posts/", img: "/images/post3.jpg", alt: "Post 3" },
   ];
     return (
-
-        <div className="flex min-h-screen items-center justify-center bg-gray-100">
-            <nav className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+        <div       className="min-h-screen bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/people.jpg')" }}>
+        <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+            <nav className="flex justify-center gap-3 mb-8">
                 <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
                     People
                 </Link>
@@ -23,12 +24,11 @@ export default function PeoplePage() {
                 </Link>
             </nav>
             <div className="text-center mb-10">
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                    The people of Kertasari are what make it worth visiting. Have a look at some stories from our
-                    visitors!
-                </h1>
+                <h2 className="text-3xl md:text-4xl font-bold text-white">
+                    Here are some popular sights in the area that you should definitely check out!
+                </h2>
             </div>
-            <section className="flex justify-center gap-16">
+            <section className="mt-10 md:mt-16 flex justify-center gap-16">
             <div className="flex gap-12">
                 {peoples.map((blog, idx) => (
                     <Link key={idx} href={blog.href}>
@@ -42,13 +42,14 @@ export default function PeoplePage() {
                             className="object-cover w-full h-full"
                         />
                     </div>
-                    <p className="text-center text-gray-800 font-medium">{blog.label}</p>
+                    <p className="mt-4 px-4 py-2 rounded bg-white/90 text-gray-900 shadow text-center text-sm font-medium w-max mx-auto">{blog.label}</p>
                 </Link>
             ))}
           </div>
             </section>
 
         </div>
+            </div>
     );
 }
 
