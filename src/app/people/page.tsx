@@ -11,7 +11,7 @@ export default function PeoplePage() {
     return (
 
         <div className="flex min-h-screen items-center justify-center bg-gray-100">
-            <nav
+            <nav className="flex gap-3 mb-8"
                 style={{
                     display: "flex",
                     gap: "20px",
@@ -23,8 +23,8 @@ export default function PeoplePage() {
                 <Link href="/places">Places</Link>
                 <Link href="/visit">Visit</Link>
             </nav>
-            <div>
-                <h1>
+            <div className="text-center mb-10">
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
                     The people of Kertasari are what make it worth visiting. Have a look at some stories from our visitors!
                 </h1>
             </div>
