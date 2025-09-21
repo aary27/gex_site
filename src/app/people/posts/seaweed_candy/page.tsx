@@ -20,7 +20,7 @@ export default function seaweed() {
               priority
           />
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">Seaweed Candy Making</h1>
+        <h1 className="text-3xl md:text-4xl text-gray-900 font-bold mb-4">Seaweed Candy Making</h1>
 
         <div className="flex items-center gap-4 mb-6">
 
@@ -29,8 +29,8 @@ export default function seaweed() {
               <Image src="anon.jpg" alt="author" fill className="object-cover"/>
             </div>
             <div>
-              <div className="text-sm font-medium">Anonymous 1</div>
-              <div className="text-xs text-black-500">May 26, 2025</div>
+              <div className="text-sm text-gray-700 font-medium">Anonymous 1</div>
+              <div className="text-xs text-gray-700">May 26, 2025</div>
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function seaweed() {
         <p>
           Now with a full scale kitchen and a shopfront, you can visit her store while also taking a tour of the facilities.
           Always willing to talk, she has stories for days. From how she battled the skepticism of the village to how hard she
-          fought to get recognised as the owner
+          fought to get recognised as a female business owner from a lesser known village.
         </p>
       </div>
     </article>
