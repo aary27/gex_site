@@ -25,6 +25,7 @@ export default function HomePage() {
       >
         <Link href="/people">People</Link>
         <Link href="/places">Places</Link>
+        <Link href="/visit">Visit</Link>
       </nav>
 
       <div
