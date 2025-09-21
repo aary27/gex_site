@@ -11,18 +11,27 @@ export default function PeoplePage() {
     return (
 
         <div className="flex min-h-screen items-center justify-center bg-gray-100">
-          <div className="mb-10">
-            <Link
-                href="/"
-                className="px-4 py-2 rounded-lg bg-blue-600 text-white font-medium shadow hover:bg-blue-700 transition"
+            <nav
+                style={{
+                    display: "flex",
+                    gap: "20px",
+                    marginTop: "20px",
+                    fontSize: "1.2rem",
+                }}
             >
-              ← Back to Home
-            </Link>
-          </div>
-          <div className="flex gap-12">
-            {peoples.map((blog, idx) => (
-                <Link key={idx} href={blog.href}>
-                    <div
+                <Link href="/people">People</Link>
+                <Link href="/places">Places</Link>
+                <Link href="/visit">Visit</Link>
+            </nav>
+            <div>
+                <h1>
+                    The people of Kertasari are what make it worth visiting. Have a look at some stories from our visitors!
+                </h1>
+            </div>
+            <div className="flex gap-12">
+                {peoples.map((blog, idx) => (
+                    <Link key={idx} href={blog.href}>
+                        <div
                         className="w-40 h-40 rounded-full overflow-hidden shadow-lg cursor-pointer transition-transform hover:scale-105">
                         <Image
                             src={blog.img}
