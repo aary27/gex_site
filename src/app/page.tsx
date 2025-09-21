@@ -14,7 +14,6 @@ export default function HomePage() {
         color: "white",
       }}
     >
-      {/* Navigation */}
       <nav
         style={{
           display: "flex",
