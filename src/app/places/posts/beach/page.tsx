@@ -1,11 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function seaweed() {
+export default function beach() {
   return (
     <article className="min-h-screen bg-white">
       <div className="mx-auto max-w-3xl px-6 pt-8">
-        <Link href="/people" className="text-sm text-gray-500 hover:text-gray-700">
+        <Link href="/places" className="text-sm text-gray-500 hover:text-gray-700">
           ← All posts
         </Link>
       </div>
