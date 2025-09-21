@@ -2,8 +2,28 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Visit() {
-  return (
-      <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+    const stays = [
+    {
+      name: "Sunrise Homestay",
+      img: "/sunrise.jpg",
+      desc: "Family-run homestay with ocean views and daily breakfast.",
+      link: "/visit/sunrise-homestay", // or external booking link
+    },
+    {
+      name: "Lagoon Guesthouse",
+      img: "/lagoon.jpg",
+      desc: "Steps away from the beach. Great for snorkeling enthusiasts.",
+      link: "/visit/lagoon-guesthouse",
+    },
+    {
+      name: "Mountain View Lodge",
+      img: "/mountain.jpg",
+      desc: "Quiet rooms nestled in the hills, perfect for hiking lovers.",
+      link: "/visit/mountain-lodge",
+    },
+  ];
+    return (
+      <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col bg-white">
           <nav className="flex justify-center gap-3 mb-8">
               <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
                   People
