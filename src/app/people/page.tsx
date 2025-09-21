@@ -24,7 +24,7 @@ export default function PeoplePage() {
                 </Link>
             </nav>
             <div className="text-center mb-10">
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
+                <h1 className="text-3xl md:text-4xl font-bold text-white">
                     The people of Kertasari are what make it worth visiting. Have a look at some stories from our
                     visitors!
                 </h1>
@@ -43,7 +43,7 @@ export default function PeoplePage() {
                             className="object-cover w-full h-full"
                         />
                     </div>
-                    <p className="text-center text-gray-800 font-medium">{blog.label}</p>
+                    <p className="text-center text-white font-medium">{blog.label}</p>
                 </Link>
             ))}
           </div>
