@@ -9,9 +9,10 @@ export default function PeoplePage() {
     // { href: "/people/posts/", img: "/images/post3.jpg", alt: "Post 3" },
   ];
     return (
-
+        <div       className="min-h-screen bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "/people.jpg" }}>
         <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
-            <nav className="flex gap-3 mb-8">
+            <nav className="flex justify-center gap-3 mb-8">
                 <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
                     People
                 </Link>
@@ -28,7 +29,7 @@ export default function PeoplePage() {
                     visitors!
                 </h1>
             </div>
-            <section className="flex justify-center gap-16">
+            <section className="mt-10 md:mt-16 flex justify-center gap-16">
             <div className="flex gap-12">
                 {peoples.map((blog, idx) => (
                     <Link key={idx} href={blog.href}>
@@ -49,6 +50,7 @@ export default function PeoplePage() {
             </section>
 
         </div>
+            </div>
     );
 }
 
