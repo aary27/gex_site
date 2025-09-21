@@ -60,7 +60,7 @@ export default function Visit() {
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <h2 className="text-2xl font-semibold mb-6 text-left text-gray-900">Places to Stay</h2>
-            <section className="mx-auto max-w-6xl">
+            <section className="mx-auto max-w-3xl">
                 <div className="grid gap-8 sm:grid-cols-2 ">
                     {stays.map((stay, i) => (
                         <div
