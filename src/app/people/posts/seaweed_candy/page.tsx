@@ -15,12 +15,12 @@ export default function seaweed() {
 
         <div className="flex items-center gap-4 mb-6">
           <div className="relative w-16 h-16 overflow-hidden rounded-lg border">
-            <Image src="url('/kert.jpg')" alt="cover" fill className="object-cover" />
+            <Image src="kert.jpg" alt="cover" fill className="object-cover" />
           </div>
 
           <div className="flex items-center gap-3">
             <div className="relative w-10 h-10 overflow-hidden rounded-full border">
-              <Image src="url('/anon.jpg')" alt="author" fill className="object-cover" />
+              <Image src="anon.jpg" alt="author" fill className="object-cover" />
             </div>
             <div>
               <div className="text-sm font-medium">Anonymous 1</div>
