@@ -56,7 +56,7 @@ export default function seaweed() {
         <p>
           Now with a full scale kitchen and a shopfront, you can visit her store while also taking a tour of the facilities.
           Always willing to talk, she has stories for days. From how she battled the skepticism of the village to how hard she
-          fought to get recognised as a female business owner from a lesser known village.
+          fought to get recognised as a female business owner from a lesser known village, her stories are what makes Kertasari unique.
         </p>
       </div>
     </article>

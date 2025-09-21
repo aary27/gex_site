@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function PeoplePage() {
   const peoples = [
-      { href: "/people/posts/seaweed_candy", img: 'seaweed_candy.jpg', alt: "Seaweed Candy Making" },
+      { href: "/people/posts/seaweed_candy", img: 'seaweed_candy.jpeg', alt: "Seaweed Candy Making" },
     { href: "/people/posts/lopi", img: "kert.jpg", alt: "Lopi Lopi Racing" },
     // { href: "/people/posts/", img: "/images/post3.jpg", alt: "Post 3" },
   ];
