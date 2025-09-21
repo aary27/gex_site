@@ -23,6 +23,24 @@ export default function Visit() {
                   width="600" height="450" loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
+          <div className="space-y-4 text-gray-800">
+              <h2 className="text-2xl font-semibold">How to Get Here</h2>
+              <p>
+                  Kertasari is about 30 minutes from the main harbor. From the city
+                  center, you can take a minibus heading south along the coastal road
+                  until you reach the Kertasari junction. Local guides often wait at
+                  the junction and can help direct you further.
+              </p>
+              <p>
+                  If you’re arriving by boat, the small pier at Kertasari is usually
+                  open in the mornings. Taxis and rental scooters are also available
+                  nearby.
+              </p>
+              <p>
+                  We recommend visiting early in the day, as the afternoon tides can
+                  make travel a little slower.
+              </p>
+          </div>
       </div>
   );
 }
