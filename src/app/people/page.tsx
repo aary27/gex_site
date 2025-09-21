@@ -32,7 +32,7 @@ export default function PeoplePage() {
                             className="object-cover w-full h-full"
                         />
                     </div>
-                    <p className="text-center text-gray-800 font-medium">{peoples.label}</p>
+                    <p className="text-center text-gray-800 font-medium">{blog.label}</p>
                 </Link>
             ))}
           </div>
