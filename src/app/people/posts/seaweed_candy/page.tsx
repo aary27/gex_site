@@ -30,7 +30,7 @@ export default function seaweed() {
             </div>
             <div>
               <div className="text-sm font-medium">Anonymous 1</div>
-              <div className="text-xs text-gray-500">May 26, 2025</div>
+              <div className="text-xs text-black-500">May 26, 2025</div>
             </div>
           </div>
         </div>
