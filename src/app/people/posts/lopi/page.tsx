@@ -13,7 +13,7 @@ export default function lopi() {
       <header className="mx-auto max-w-3xl px-6 pt-6">
         <div className="relative w-full max-w-2xl mx-auto h-64 md:h-96 mb-6">
           <Image
-              src="/kert.jpg"
+              src="/lopilopi.jpg"
               alt="Lopi Lopi Painting"
               fill
               className="object-cover rounded-lg shadow-md"
