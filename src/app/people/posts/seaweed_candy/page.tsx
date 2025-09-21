@@ -36,7 +36,7 @@ export default function seaweed() {
         </div>
       </header>
 
-      <div className="mx-auto max-w-3xl px-6 pb-20 prose prose-neutral">
+      <div className="mx-auto max-w-3xl px-6 pb-20 prose prose-gray">
         <p>
           Paragraph 1 about the seaweed candy lady.
         </p>
