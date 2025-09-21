@@ -1,4 +1,4 @@
-export default function PeoplePage() {
+export default function VisitPage() {
   return (
     <main style={{
         backgroundImage: "url('/people.jpg')",
