@@ -10,8 +10,8 @@ export default function PeoplePage() {
   ];
     return (
 
-        <div className="flex min-h-screen items-center justify-center bg-gray-100">
-            <nav className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+        <div className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+            <nav className="flex gap-3 mb-8">
                 <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
                     People
                 </Link>
