@@ -29,7 +29,7 @@ export default function Visit() {
                     Visit
                 </Link>
             </nav>
-            <h1 className="text-3xl font-bold mb-4">Visit Kertasari</h1>
+            <h1 className="text-3xl font-bold mb-4 text-gray-900">Visit Kertasari</h1>
             <div className="space-y-4 text-gray-800">
                 <h2 className="text-2xl font-semibold">How to Get Here</h2>
                 <p>
@@ -61,8 +61,8 @@ export default function Visit() {
             </div>
 
             <section className="mx-auto max-w-6xl">
-                <h2 className="text-2xl font-semibold mb-6 text-center">Places to Stay</h2>
-                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                <h2 className="text-2xl font-semibold mb-6 text-left text-gray-900">Places to Stay</h2>
+                <div className="grid gap-8 sm:grid-cols-2 ">
                     {stays.map((stay, i) => (
                         <div
                             key={i}
