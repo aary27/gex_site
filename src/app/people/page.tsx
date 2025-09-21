@@ -11,28 +11,29 @@ export default function PeoplePage() {
     return (
 
         <div className="flex min-h-screen items-center justify-center bg-gray-100">
-            <nav className="flex gap-3 mb-8"
-                style={{
-                    display: "flex",
-                    gap: "20px",
-                    marginTop: "20px",
-                    fontSize: "1.2rem",
-                }}
-            >
-                <Link href="/people">People</Link>
-                <Link href="/places">Places</Link>
-                <Link href="/visit">Visit</Link>
+            <nav className="mx-auto max-w-5xl px-6 py-10 flex flex-col">
+                <Link href="/people" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
+                    People
+                </Link>
+                <Link href="/places" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
+                    Places
+                </Link>
+                <Link href="/visit" className="px-3 py-1 rounded bg-white shadow text-gray-800 hover:bg-gray-50">
+                    Visit
+                </Link>
             </nav>
             <div className="text-center mb-10">
                 <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
-                    The people of Kertasari are what make it worth visiting. Have a look at some stories from our visitors!
+                    The people of Kertasari are what make it worth visiting. Have a look at some stories from our
+                    visitors!
                 </h1>
             </div>
+            <section className="flex justify-center gap-16">
             <div className="flex gap-12">
                 {peoples.map((blog, idx) => (
                     <Link key={idx} href={blog.href}>
                         <div
-                        className="w-40 h-40 rounded-full overflow-hidden shadow-lg cursor-pointer transition-transform hover:scale-105">
+                            className="w-40 h-40 rounded-full overflow-hidden shadow-lg cursor-pointer transition-transform hover:scale-105">
                         <Image
                             src={blog.img}
                             alt={blog.alt}
@@ -45,6 +46,9 @@ export default function PeoplePage() {
                 </Link>
             ))}
           </div>
+            </section>
+
         </div>
     );
 }
+
