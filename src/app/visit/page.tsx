@@ -76,7 +76,7 @@ export default function Visit() {
                                 />
                             </div>
                             <div className="p-4 space-y-2">
-                                <h3 className="text-lg font-semibold">{stay.name}</h3>
+                                <h3 className="text-lg font-semibold text-gray-800">{stay.name}</h3>
                                 <p className="text-sm text-gray-600">{stay.desc}</p>
                                 <Link
                                     href={stay.link}
