@@ -1,5 +1,8 @@
+import Link from 'next/link';
+import Image from 'next/image';
+
 export default function VisitPage() {
-  return (
+    return (
     <main style={{
         backgroundImage: "url('/people.jpg')",
         backgroundSize: "cover",
